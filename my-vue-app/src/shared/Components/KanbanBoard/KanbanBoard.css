@@ -1,0 +1,76 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  width: 282px;
+  background-color: #EAECF0;
+  margin: 20px 19px;
+  padding: 10px;
+  height: 100%;
+  max-height: 500px;
+}
+
+.board_title {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.board_task-list {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  max-height: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex-grow: 1;
+}
+
+.board_task-card {
+  background: #FFFFFF;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.board_task-card:hover {
+  color: #FFFFFF;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #0D68A5;
+  cursor: pointer;
+}
+
+.board_input {
+  width: 100%;
+  height: 30px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.board_add-task {
+  color: #5F6C84;
+  margin-top: auto;
+}
+
+.board_add-task:hover {
+  border-radius: 5px;
+  color: #FFFFFF;
+  background-color: #0D68A5;
+  cursor: pointer;
+}
+
+.board_button-submit:hover {
+  color: #FFFFFF;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #0D68A5;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=KanbanBoard.css.map */

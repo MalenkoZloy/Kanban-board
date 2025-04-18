@@ -1,0 +1,12 @@
+.board_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 430px) {
+    .board_container{
+        flex-direction: column;
+        margin-left: 60px;
+        gap: 20px;
+    }
+}

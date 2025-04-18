@@ -1,0 +1,19 @@
+.app_header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0067A3;
+    height: 55px;
+}
+
+.app_header-title{
+    color: #ffffff;
+    font-size: 28px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    margin-left: 20px;
+    margin-top: 14px;
+}
+

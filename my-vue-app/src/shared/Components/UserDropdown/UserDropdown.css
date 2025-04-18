@@ -1,0 +1,49 @@
+.userDropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 7px;
+  margin-right: 16px;
+}
+
+.userDropdown_arrow {
+  margin-top: 6px;
+}
+
+.userDropdown_profile {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  width: 134px;
+  height: 60px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  position: absolute;
+  top: 100%;
+  right: -14px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.userDropdown_corner {
+  position: absolute;
+  top: calc(100% - 4px);
+  right: 25px;
+  width: 0;
+  height: 0;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+  border-bottom: 8px solid #FFFFFF;
+}
+
+p:hover {
+  background-color: #EAECF0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=UserDropdown.css.map */
